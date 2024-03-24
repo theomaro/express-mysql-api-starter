@@ -1,5 +1,5 @@
 {
-  "name": "express-mysql-starter",
+  "name": "express-mysql-api-starter",
   "version": "1.0.0",
   "description": "A starter template for building a MVC backend RESTful API with Node.js, Express.js and MySQL",
   "main": "app.js",
