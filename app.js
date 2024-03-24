@@ -20,10 +20,6 @@ app.use(cookieParser());
 // configure url routes
 app.use("/api/auth", authRouter);
 
-app.get("/api", (req, res) => {
-  res.status(200).send(`${process.env.SERVER_PORT}`);
-});
-
 app.listen(port, hostname, () => {
   console.log(`Server is listening at ${hostname}:${port}`);
 });
